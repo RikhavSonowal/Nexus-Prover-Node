@@ -37,7 +37,6 @@ sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano aut
 ### 🦀 Step 2: Rust Install karo
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-# Install ke dauraan 'Enter' dabayein for default settings
 source $HOME/.cargo/env
 export PATH="$HOME/.cargo/bin:$PATH"
 rustup target add riscv32i-unknown-none-elf
@@ -68,7 +67,6 @@ screen -S nexus
 sudo curl https://cli.nexus.xyz/ | sh
 source ~/.bashrc
 nexus-network start --node-id your-node-id
-# ⚠️ Apna node-id yahan daalein (niche dekhein kaise milega)
 ```
 
 ---
